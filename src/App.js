@@ -46,7 +46,6 @@ class App extends Component {
         </Container>
         {this.state.fleetwoods.map((fleetwoods) => (
           <EmployeeCard
-            removeFleetwood={this.removeFleetwood}
             id={fleetwoods.id}
             key={fleetwoods.id}
             name={fleetwoods.name}
