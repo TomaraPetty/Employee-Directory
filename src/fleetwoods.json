@@ -5,7 +5,7 @@
     "image": "https://media.npr.org/assets/img/2018/01/29/gettyimages-84893122_wide-35df68852e9fba6c953c8de4946da82a5c47361a.jpg",
     "occupation": "Singer and Tambourine Player",
     "location": "USA",
-    "age": "",
+    "age": "72",
     "current": true
   },
   {
@@ -14,7 +14,7 @@
     "image": "http://i.imgur.com/lY3SLIl.jpg",
     "occupation": "Guitar Player",
     "location": "USA",
-    "age": "",
+    "age": "71",
     "current": false
   },
   {
@@ -22,8 +22,8 @@
     "name": "John McVie",
     "image": "https://www.beachamjournal.com/.a/6a01053653b3c7970b026be427349f200d-800wi",
     "occupation": "Bass Guitar Player",
-    "location": "USA",
-    "age": "",
+    "location": "UK",
+    "age": "75",
     "current": true
   },
   {
@@ -31,8 +31,8 @@
     "name": "Mick Fleetwood",
     "image": "https://lh3.googleusercontent.com/proxy/oHEqaJwxF3hBxQUtzSnTvQPT2TvWJRd5uF7O8TZesvyj2_h0TjJYpTapIY3W-F19oXgiJnF2qU-pKzWm-uX67TMQ8qAf2Lg9do1a_ZioR5oGrerZxmosO7LpN2a8lMoV6w",
     "occupation": "Drummer",
-    "location": "USA",
-    "age": "",
+    "location": "UK",
+    "age": "73",
     "current": true
   },
   {
@@ -40,8 +40,8 @@
     "name": "Christine McVie",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRATszqDnUKletk7wlD4ENLe2y4LpOUZyoN3A&usqp=CAU",
     "occupation": "Accordion Player",
-    "location": "USA",
-    "age": "",
+    "location": "UK",
+    "age": "77",
     "current": true
   },
   {
@@ -49,8 +49,8 @@
     "name": "Peter Green",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqOTP_TmXhnopkmPGiC-cWMwBX3VNchFi9_g&usqp=CAU",
     "occupation": "Guitar Player",
-    "location": "USA",
-    "age": "",
+    "location": "UK",
+    "age": "73",
     "current": false
   },
   {
@@ -59,7 +59,7 @@
     "image": "https://img.washingtonpost.com/rf/image_1484w/WashingtonPost/Content/Blogs/celebritology/Images/84888677.jpg?uuid=NyBFoLFlEeG2pT6F5yOMZA",
     "occupation": "Guitar Player",
     "location": "USA",
-    "age": "",
+    "age": "66",
     "current": false
   },
   {
@@ -67,8 +67,8 @@
     "name": "Neil Finn",
     "image": "https://tac.ibcdn.nz/media/2015_04_16_halloffame_neilfinn.jpg",
     "occupation": "Guitar Player",
-    "location": "USA",
-    "age": "",
+    "location": "New Zealand",
+    "age": "62",
     "current": true
   },
   {
@@ -77,7 +77,7 @@
     "image": "https://cdn.mos.cms.futurecdn.net/460dd92fb24f3179141212a1bb357cdf-1200-80.jpg",
     "occupation": "Guitar Player",
     "location": "California",
-    "age": "",
+    "age": "71",
     "current": true
   },
   {
@@ -85,8 +85,8 @@
     "name": "Jeremy Spencer",
     "image": "https://pbs.twimg.com/media/EGoXHFLXYAoWMYC.jpg",
     "occupation": "Piano",
-    "location": "O-Town, California",
-    "age": "",
+    "location": "UK",
+    "age": "72",
     "current": false
   },
   {
@@ -94,8 +94,8 @@
     "name": "Danny Kirwan",
     "image": "https://s.yimg.com/uu/api/res/1.2/_eWVQ6peSl7IRejWWXgVbQ--~B/aD00MTI7dz02MTg7YXBwaWQ9eXRhY2h5b24-/http://media.zenfs.com/en_US/News/TheWrap/Danny_Kirwan_Fleetwood_Mac_Guitarist-13b54a1476732c1fd1f80d17e584668e",
     "occupation": "Guitar Player",
-    "location": "Earth",
-    "age": "",
+    "location": "London",
+    "age": "68",
     "current": false
   },
   {
@@ -103,8 +103,8 @@
     "name": "Dave Mason",
     "image": "http://www.photofeatures.com/davemason/images/prevs/traffic-13a.jpg",
     "occupation": "Guitar Player",
-    "location": "USA",
-    "age": "",
+    "location": "UK",
+    "age": "74",
     "current": false
   }
 ]
