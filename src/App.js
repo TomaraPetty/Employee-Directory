@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ButtonGroup from "react-bootstrap/Button";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
+import Row from 'react-bootstrap/Row';
+
 
 class App extends Component {
   state = {
@@ -16,7 +18,7 @@ class App extends Component {
   };
 
   guitarPlayers = () => {
-    const guitar = this.state.fleetwoods.filter(
+    const guitar = fleetwoods.filter(
       (fleetwoods) => fleetwoods.occupation === "Guitar Player"
     );
     this.setState({ fleetwoods: guitar });
@@ -27,23 +29,47 @@ class App extends Component {
   };
 
   currentEmployee = () => {
-    const current = this.state.fleetwoods.filter(
+    const current = fleetwoods.filter(
       (fleetwoods) => fleetwoods.current === true
     );
     this.setState({ fleetwoods: current });
   };
 
+  alphabet = () => {
+    const alph = fleetwoods.sort(
+      this.compare
+    );
+    console.log(alph);
+    this.setState({ fleetwoods: alph });
+  };
+
+  compare = ( a, b ) => {
+    const aNameParts = a.name.split(' ');
+    const bNameParts = b.name.split(' ')
+    if ( aNameParts[1] < bNameParts[1] ){
+      return -1;
+    }
+    if ( aNameParts[1] > bNameParts[1]  ){
+      return 1;
+    }
+    return 0;
+  };
+
   render() {
     return (
       <Wrapper>
-        <Container>
+        <Container className="justify-content-md-center">
+          <Row className="justify-content-md-center">
           <Title>Fleetwood Mac Employee List</Title>
-          <ButtonGroup className="center" size="lg" className="mb-2">
-            <Button onClick={this.all}>All</Button>
-            <Button onClick={this.guitarPlayers}>Guitar Players</Button>
-            <Button onClick={this.currentEmployee}>Current Employees</Button>
+          <ButtonGroup variant="dark" aria-label="Basic example">
+            <Button variant="dark" onClick={this.all}>All</Button>
+            <Button variant="dark" onClick={this.guitarPlayers}>Guitar Players</Button>
+            <Button variant="dark" onClick={this.currentEmployee}>Current Employees</Button>
+            <Button variant="dark" onClick={this.alphabet}>Alphabetical</Button>
           </ButtonGroup>
+          </Row>
         </Container>
+        <Row>
         {this.state.fleetwoods.map((fleetwoods) => (
           <EmployeeCard
             id={fleetwoods.id}
@@ -56,6 +82,7 @@ class App extends Component {
             current={fleetwoods.current}
           />
         ))}
+        </Row>
       </Wrapper>
     );
   }

@@ -18,6 +18,9 @@ function EmployeeCard(props) {
           <li>
             <strong>Location:</strong> {props.location}
           </li>
+          <li>
+            <strong>Age:</strong> {props.age}
+          </li>
         </ul>
       </div>
     </div>
