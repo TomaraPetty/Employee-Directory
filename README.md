@@ -15,7 +15,7 @@
 
 ## Description 
 *Overview of this project:* 
-* This page features a list of employees of the band Fleetwood Mac. Each employee's information comes up in a card with a photo, where they are from, age, etc. Employees can be filtered by current employees, all or guitar players. Employees can be sorted in alphabetical order.
+This page features a list of employees of the band Fleetwood Mac. Each employee's information comes up in a card with a photo, where they are from, age, etc. Employees can be filtered by current employees, all or guitar players. Employees can be sorted in alphabetical order.
 
 ## Installation
 *Steps required to install project and get the development environment established:*
@@ -23,8 +23,9 @@ This project was built with Create React App. In the project directory, you can 
 
 ## Usage
 *Instructions and examples for use:* 
+This project was built with Create React App. In the project directory, you can run: `npm start` to start the app on your local host. 
 
-<img src="https://gph.is/g/Z2KL2JL">
+<img src="public/images/FMEL.gif">
 
 ## License 
 * Built under the MIT licence.
