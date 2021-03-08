@@ -15,7 +15,10 @@
 
 ## Description 
 *Overview of this project:* 
-This page features a list of employees of the band Fleetwood Mac. Each employee's information comes up in a card with a photo, where they are from, age, etc. Employees can be filtered by current employees, all or guitar players. Employees can be sorted in alphabetical order.
+* This page features a list of employees of the band Fleetwood Mac. 
+* Each employee's information comes up in a card with a photo, where they are from, age, etc. 
+* Employees can be filtered by current employees, all or guitar players. 
+* Employees can be sorted in alphabetical order.
 
 ## Installation
 *Steps required to install project and get the development environment established:*
@@ -34,9 +37,6 @@ This page features a list of employees of the band Fleetwood Mac. Each employee'
 
 ## Credits
 * Built & designed by Tomara Petty
-
-## Test
-No tests.
 
 ## Questions?
 <img src="https://avatars0.githubusercontent.com/u/65513543?s=460&u=20bf726727263d5c2cb42b357ae261aff2a38e6e&v=4" alt="GitHub profile image">
