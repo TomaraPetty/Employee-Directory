@@ -19,11 +19,13 @@ This page features a list of employees of the band Fleetwood Mac. Each employee'
 
 ## Installation
 *Steps required to install project and get the development environment established:*
-This project was built with Create React App. In the project directory, you can run: `npm start` to start the app on your local host. 
+* This project was built with Create React App. 
+* In the project directory, you can run: `npm start` to start the app on your local host. 
 
 ## Usage
 *Instructions and examples for use:* 
-This project was built with Create React App. In the project directory, you can run: `npm start` to start the app on your local host. 
+* This project was built with Create React App. 
+* In the project directory, you can run: `npm start` to start the app on your local host. 
 
 <img src="public/images/FMEL.gif">
 
