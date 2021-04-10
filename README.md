@@ -27,8 +27,8 @@
 
 ## Usage
 *Instructions and examples for use:* 
-* This project was built with Create React App. 
-* In the project directory, you can run: `npm start` to start the app on your local host. 
+* Clone this repo and open in the code editor of choice.
+* Run: `npm install` to install required applications. 
 
 <img src="public/images/FMEL.gif">
 
